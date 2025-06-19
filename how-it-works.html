@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Blockchain Works - Blockchain Education Hub</title>
+    <link rel="icon" href="assests/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-group"><img src="assests/logo.png" alt="" class="logo-img">Adeyimika<dot>.</dot></a>
+            </div>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="what-is-blockchain.html" class="nav-link">What is Blockchain</a>
+                <a href="how-it-works.html" class="nav-link active">How it Works</a>
+                <a href="advantages.html" class="nav-link">Advantages</a>
+                <a href="applications.html" class="nav-link">Applications</a>
+                <a href="challenges.html" class="nav-link">Challenges</a>
+                <a href="future.html" class="nav-link">Future</a>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+            <a href="what-is-blockchain.html" class="mobile-nav-link">What is Blockchain</a>
+            <a href="how-it-works.html" class="mobile-nav-link active">How it Works</a>
+            <a href="advantages.html" class="mobile-nav-link">Advantages</a>
+            <a href="applications.html" class="mobile-nav-link">Applications</a>
+            <a href="challenges.html" class="mobile-nav-link">Challenges</a>
+            <a href="future.html" class="mobile-nav-link">Future</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container page-container">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1>How Blockchain Works</h1>
+                    <p>Understanding the step-by-step process of how blockchain technology operates.</p>
+                </div>
+
+                <div class="blockchain-steps">
+                    <div class="blockchain-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Transaction Initiation</h3>
+                            <p>A user initiates a transaction, such as sending cryptocurrency, recording data, or executing a smart contract.</p>
+                        </div>
+                    </div>
+
+                    <div class="blockchain-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Transaction Grouping</h3>
+                            <p>Multiple transactions are collected and grouped together into a block. Each transaction is verified by network nodes through cryptographic algorithms.</p>
+                        </div>
+                    </div>
+
+                    <div class="blockchain-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Block Verification</h3>
+                            <p>The network verifies the block through a consensus mechanism. The two most common methods are:</p>
+                            <ul class="check-list">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                    Proof of Work: Miners solve complex mathematical puzzles to validate transactions and create new blocks.
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                                    Proof of Stake: Validators are selected to create new blocks based on the amount of cryptocurrency they hold and are willing to 'stake' as collateral.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="blockchain-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Block Addition</h3>
+                            <p>Once verified, the new block is added to the existing blockchain. Each block contains a cryptographic hash of the previous block, creating a secure chain.</p>
+                        </div>
+                    </div>
+
+                    <div class="blockchain-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Permanent Record Creation</h3>
+                            <p>The data becomes permanent and viewable by all participants in the network. The decentralized nature means no single entity controls the data, and it cannot be altered without network consensus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-content">
+                        <h3>Blockchain in Voting Systems</h3>
+                        <p>In voting applications, each vote is recorded as a transaction and added to the blockchain. This creates a tamper-proof record that can be verified by all participants while maintaining voter privacy.</p>
+                    </div>
+                    <a href="applications.html#voting" class="button primary">
+                        Learn About Blockchain Voting
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+
+                <div class="next-section-card">
+                    <div class="next-section-content">
+                        <h3>Discover the advantages of blockchain</h3>
+                        <p>Learn about the key benefits that make blockchain technology revolutionary.</p>
+                    </div>
+                    <a href="advantages.html" class="button primary">
+                        Continue Learning
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year"></span>  <name>Adeyimika</name><dot>.</dot> All rights reserved.</p>
+            <div class="footer-links">
+                <a href="what-is-blockchain.html">What is Blockchain</a>
+                <a href="applications.html#voting">Voting Systems</a>
+                <a href="future.html">Future</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

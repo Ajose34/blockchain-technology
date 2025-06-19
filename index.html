@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeyimika Blockchain Education Hub</title>
+    <link rel="icon" href="assests/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-group"><img src="assests/logo.png" alt="" id="logo-img" class="logo-img">Adeyimika<dot>.</dot></a>
+            </div>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="what-is-blockchain.html" class="nav-link">What is Blockchain</a>
+                <a href="how-it-works.html" class="nav-link">How it Works</a>
+                <a href="advantages.html" class="nav-link">Advantages</a>
+                <a href="applications.html" class="nav-link">Applications</a>
+                <a href="challenges.html" class="nav-link">Challenges</a>
+                <a href="future.html" class="nav-link">Future</a>
+            </nav>
+
+            <!-- <img src="assests/logo-flipped.png" alt=""> -->
+
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link active">Home</a>
+            <a href="what-is-blockchain.html" class="mobile-nav-link">What is Blockchain</a>
+            <a href="how-it-works.html" class="mobile-nav-link">How it Works</a>
+            <a href="advantages.html" class="mobile-nav-link">Advantages</a>
+            <a href="applications.html" class="mobile-nav-link">Applications</a>
+            <a href="challenges.html" class="mobile-nav-link">Challenges</a>
+            <a href="future.html" class="mobile-nav-link">Future</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Understanding Blockchain Technology</h1>
+                        <p>From cryptocurrencies to secure voting systems, discover how blockchain is transforming our digital world.</p>
+                        <div class="hero-buttons">
+                            <a href="what-is-blockchain.html" class="button primary">
+                                Learn More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                            </a>
+                            <a href="applications.html#voting" class="button secondary">Blockchain Voting</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="blockchain-animation" id="blockchain-animation">
+                            <img src="assests/Illustration.png" alt="" class="illustration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Topics Section -->
+        <section class="topics-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Key Blockchain Topics</h2>
+                    <p>Explore the fundamental concepts and applications of blockchain technology</p>
+                </div>
+                <div class="topics-grid">
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/Blockchain.svg" alt="">
+                        </div>
+                        <h3>What is Blockchain?</h3>
+                        <p>A decentralized digital ledger with data stored in linked blocks.</p>
+                        <a href="what-is-blockchain.html" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/how-it-works.svg" alt="">
+                        </div>
+                        <h3>How Blockchain Works</h3>
+                        <p>From transaction initiation to permanent record creation.</p>
+                        <a href="how-it-works.html" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/advantages.svg" alt="">
+                        </div>
+                        <h3>Blockchain Advantages</h3>
+                        <p>Decentralization, transparency, security, and immutability.</p>
+                        <a href="advantages.html" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/applications.svg" alt="">
+                        </div>
+                        <h3>Applications</h3>
+                        <p>From cryptocurrencies to supply chains and healthcare.</p>
+                        <a href="applications.html" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/blockchain-voting.svg" alt="">
+                        </div>
+                        <h3>Blockchain Voting</h3>
+                        <p>Secure, transparent, and tamper-proof election systems.</p>
+                        <a href="applications.html#voting" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                    <div class="topic-card">
+                        <div class="topic-icon">
+                            <img src="assests/svg/future.svg" alt="">
+                        </div>
+                        <h3>Future of Blockchain</h3>
+                        <p>Scaling solutions and becoming a standard technology.</p>
+                        <a href="future.html" class="button outline full-width">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Learn More?</h2>
+                    <p>Start your blockchain journey today and discover how this technology is reshaping our digital future.</p>
+                    <a href="what-is-blockchain.html" class="button primary">Begin Learning</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> <a href="index.html"><name>Adeyimika</name></a><dot>.</dot> All rights reserved.</p>
+            <div class="footer-links">
+                <a href="what-is-blockchain.html">What is Blockchain</a>
+                <a href="applications.html#voting">Voting Systems</a>
+                <a href="future.html">Future</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

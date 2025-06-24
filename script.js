@@ -13,36 +13,50 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Theme toggle functionality
 
-  // let logoFunction = function yinka() {
-  //   let logoImg = document.getElementById("logo-img");
-  //   logoImg.src = "assests/logo-flipped.png";
-  // }
-
   const themeToggle = document.getElementById('theme-toggle');
+  const logo = document.getElementById("logo-img");
+
   themeToggle.addEventListener('click', function() {
     document.body.classList.toggle('dark');
     const isDark = document.body.classList.contains('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    
-    // const logoFunction = function () {
-    if (theme = 'light') {
-      document.getElementById("logo-img").src = "assests/logo-flipped.png";
+
+    // Logo flip
+    if (logo.src.includes("assests/logo.png")) {
+      logo.src = "assests/logo-flipped.png"; // Unlocked icon
     } else {
-      document.getElementById("logo-img").src = "assests/logo.png";
-    }x
+      logo.src = "assests/logo.png"; // Locked icon
+    };
+
+    // Menu flip
+    if (menuIcon.src.includes("assests/svg/Menu.svg")) {
+      menuIcon.src = "assests/svg/Menu-flipped.svg"; // Unlocked icon
+    } else {
+      menuIcon.src = "assests/svg/Menu.svg"; // Locked icon
+    };
       
-    // };
-    // logoFunction;
+    
+    
   });
   
   // Mobile menu toggle
   const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
   const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById("menu-icon");
   
   mobileMenuToggle.addEventListener('click', function() {
     mobileMenu.classList.toggle('open');
+
+    if (menuIcon.src.includes("assests/svg/Menu.svg")) {
+      menuIcon.src = "assests/svg/Close.svg"; // Unlocked icon
+    } else {
+      menuIcon.src = "assests/svg/Menu.svg"; // Locked icon
+    };
   });
-  
+
+
+
+
   // Render blockchain animation on homepage
   const blockchainAnimation = document.getElementById('blockchain-animation');
   if (blockchainAnimation) {

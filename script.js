@@ -28,14 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
       logo.src = "assests/logo.png"; // Locked icon
     };
 
-    // Menu flip
-    if (menuIcon.src.includes("assests/svg/Menu.svg")) {
-      menuIcon.src = "assests/svg/Menu-flipped.svg"; // Unlocked icon
-    } else {
-      menuIcon.src = "assests/svg/Menu.svg"; // Locked icon
-    };
-      
-    
     
   });
   
